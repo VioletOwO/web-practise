@@ -1,0 +1,108 @@
+#pdsrz_box{
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  width: 400px;
+  height: 100px;
+  border: 10px ;
+  padding: 0;
+  margin: auto;
+  flex-wrap:nowrap;
+}
+.pdsrzimg{
+	
+	width: auto;
+	height: auto;
+	max-width: 25%;
+	max-height: 100%;
+	 flex-grow:1;
+}
+.textbox{
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  width: 300px;
+  height: 100px;
+ flex-direction: column;
+  align-content: space-around;
+	flex-grow:3;
+}
+.name{
+	font-size: 10px;
+	font-weight: 900;
+	flex-grow:1;
+}
+.intro{
+	font-size: 10px;
+	font-weight: 100;
+	flex-grow:1;
+}
+.thirdline{
+	flex-grow:1;
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  width: 300px;
+  height: 25px;
+	
+	align-items: baseline;
+}
+.star{
+	flex-grow:1;
+}
+.fa-star{
+	font-size: 10px;
+	color: yellow;
+}
+.fa-star-o{
+	font-size: 10px;
+	color: yellow;
+}
+.No_people{
+	font-size: 10px;
+	font-weight: 100;
+	flex-grow:1;
+	}
+.No_sell{
+	font-size: 10px;
+	font-weight: 100;
+	flex-grow:1;
+	}
+.fourthline{
+	flex-grow:1;
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  width: 300px;
+  height: 25px;
+	justify-content: flex-start;
+}
+.price{
+	font-size: 20px;
+	font-weight: 100;
+	flex-wrap: nowrap;
+	flex-grow:1;
+	}
+.pdsrzbutton{
+	flex-grow:1;
+	background-color: blue;
+	border: none;
+	color: white;
+	margin-bottom: 4px 2px;
+}
+.p{
+	text-align:left; 
+}
+
