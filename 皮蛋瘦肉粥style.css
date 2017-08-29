@@ -8,9 +8,22 @@
   display: -moz-flex;
   display: -webkit-flex;
   display: flex;
-  width: 900px;
-  height: 300px;
+  width: 820px;
+  height: 500px;
   flex-wrap:wrap;
+  align-content: flex-start;
+  background-color: #f0f8ff;
+}
+.title{
+	width: 820px;
+  height: 30px;
+  margin:5px 0px 10px 10px;
+  font-family: "Arial","Microsoft
+ YaHei","黑体","宋体",sans-serif;
+}
+.subtitle{
+	font: 12px/1.5
+ Tahoma,Helvetica,Arial,'宋体',sans-serif;
 }
 .dish_box{
 	
@@ -24,8 +37,10 @@
   height: 100px;
   border: 10px ;
   
-  margin: 5px;
+  margin: 0px 10px 10px 0px;
+  background-color: white;
   flex-wrap:nowrap;
+  
 }
 .img{
 	
@@ -52,43 +67,60 @@
 	
 }
 .name{
-	font-size: 14px;
-	font-weight: 900;
-	flex-grow:1;
+width: 300px;
+  height: 16px;
+	font: 14px/1.5
+ Tahoma,Helvetica,Arial,'宋体',sans-serif;
+ font-weight: bold;
 }
 .intro{
-	font-size: 10px;
-	font-weight: 100;
-	flex-grow:1;
+width: 300px;
+  height: 14px;
+  padding-top:4px;
+	color:#999;
+	font: 12px/1
+ Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;
 }
 .thirdline{
-	flex-grow:1;
-	align-items: baseline;
-	font-size: 10px;
-	font-weight: 100;
+	margin-top:4px;
+	font-size: 12px;
+		color:#999;
 }
 
 .fa-star{
-	font-size: 10px;
+	font-size: 12px;
 	color: 	gold;
 }
 .fa-star-o{
-	font-size: 10px;
+	font-size: 12px;
 	color: 	gold;
 }
 
 .fourthline{
-	flex-grow:1;
-	font-size: 12px;
-	font-weight: 900;
+	width: 270px;
+  height: 14px;
+  margin-top:4px;
+	font-weight: 700;
 	color:red;
+	font: 14px/1
+ Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;
 }
 
 .button{
-	float:right;
-	background-color: #87cefa;
-	border: none;
+	font-size:12px;
+	position:relative;
+	left:170px;
+	bottom:5px;
+	background-color: #0089dc;
+	padding: 3px 10px;
 	color: white;
-	margin-bottom: 4px 2px;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	
 }
 
