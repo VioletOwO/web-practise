@@ -1,4 +1,19 @@
-.big_box{
+.menu_box{
+	
+}
+.rexiao_box{
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  width: 900px;
+  height: 300px;
+  flex-wrap:wrap;
+}
+.dish_box{
+	
 	display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -8,8 +23,8 @@
   width: 400px;
   height: 100px;
   border: 10px ;
-  padding: 0;
-  margin: auto;
+  
+  margin: 5px;
   flex-wrap:nowrap;
 }
 .img{
@@ -69,7 +84,7 @@
 	color:red;
 }
 
-#pdsrzbutton{
+.button{
 	float:right;
 	background-color: #87cefa;
 	border: none;
